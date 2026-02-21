@@ -1,6 +1,7 @@
-import { Button } from "@chakra-ui/react";
+import NavBar from "./components/NavBar";
+
 const App = () => {
-  return <Button colorScheme="blue">Button</Button>;
+  return <NavBar />;
 };
 
 export default App;
